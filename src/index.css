@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: yellowgreen;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid yellowgreen;
+  font-size: 16px;
+  color: black;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: blue;
+  border: skyblue;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+h1.welcome {
+  color: blue;
+  font-size: 24px;
+}
+
+button.log-out {
+  margin-top: 20px;
+  background-color: red;
+}
+
+button.log-out:hover {
+  background-color: brown;
+}
