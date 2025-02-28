@@ -12,6 +12,7 @@ const { createItem, getItems, getItemById } = require('./db/items.cjs');
 const { createReview, getReviewsForItem, getReviewsByUser } = require('./db/reviews.cjs');
 
 app.use(express.json());
+app.use(express.static("dist"))
 
 app.get('/', (req, res, next) => {
   res.send('Welcome to Review App');
